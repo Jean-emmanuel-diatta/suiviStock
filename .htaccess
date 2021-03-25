@@ -1,0 +1,10 @@
+  
+RewriteEngine On
+RewriteRule ^index$ index.php
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^addProduit src/view/produit/addProduit.php
+RewriteRule ^listProduit src/view/produit/listProduit.php
+RewriteRule ^addUser src/view/user/addUser.php
+RewriteRule ^listUser src/view/user/listUser.php
+RewriteRule ^deleteUser src/view/user/deleteUser.php
+RewriteRule ^updateUser src/view/user/updateUser.php
